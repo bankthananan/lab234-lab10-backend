@@ -1,5 +1,6 @@
 package camt.se234.lab10;
 
+import junitparams.JUnitParamsRunner;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -12,5 +13,7 @@ public class Lab10ApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+
+
 
 }
