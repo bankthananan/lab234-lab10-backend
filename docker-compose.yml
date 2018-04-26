@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  backend:
+    image: coca1719/se234-lab10-backend:latest
+    ports:
+    - "8082:8080"
+  frontend:
+    image: coca1719/se234-lab10-client:latest
+    ports:
+    - "8081:80"
